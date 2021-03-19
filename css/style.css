@@ -14,7 +14,7 @@ body {
 } */
 
 .container {
-    width: 80%;
+    width: 1024px;
     margin: 30px auto;
 }
 
@@ -44,14 +44,26 @@ nav {
 .list-inline a:hover {
     color: black;
 }
-/* barra di navigazione */
+/* /barra di navigazione */
 
-
+/* banner */
  .banner {
     height: 400px;
-    background-color: #E1D67A;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
     margin-bottom: 30px;
+    color: white;
 }
+.banner > div {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 280px 250px 0 30px;
+}
+/* /banner */
 
 main {
     height: 600px;
