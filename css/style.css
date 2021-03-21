@@ -16,7 +16,7 @@ h4 {
 }
 
 .container {
-    width: 1024px;
+    width: 53%;
     margin: 30px auto;
 }
 
@@ -54,6 +54,7 @@ nav {
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size:cover;
     border-radius: 15px;
     margin-bottom: 30px;
     color: white;
